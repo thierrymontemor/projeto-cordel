@@ -1,31 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@700&family=Sriracha&display=swap');
 * {
     margin: 0px;
     padding: 0px;
 }
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header{
     background-color: black;
     padding: 40px;
-}
-h1{
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    position:absolute;
     text-align: center;
-    color: white;
-    padding: 10px;
-    font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 
+
+h1{
+    font-variant: small-caps;
+    padding-top:50px;
+    color: white;
+    font-size: 10vw;
+    font-family: 'Passion One', sans-serif;
+    font-variant: small-caps;
+  
+    
 }
 h2{
     text-align: center;
     margin:auto;
     color: white;
     font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom:50px;
 
 }
 a{
     color: white;
     text-decoration: none;
+}
+p {
+    font-family: 'Sriracha',cursive;
+    font-size: 5vw;
+    
+    
+}
+.fundo1{
+    background-repeat:no-repeat;
+    background-color: white;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: right center;
+}
+.estrofe-impar{
+    padding: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.414);
+    
+}
+.texto-impar{
+    width: 50vw;
+}
+.estrofe-par{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+    margin: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    border-radius:0px;
+    
+}
+.fundo2{
+    background-repeat:no-repeat;
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: right center;
 }
